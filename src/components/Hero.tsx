@@ -19,11 +19,11 @@ export default function Hero() {
               Flutter, et plus encore.
             </p>
             <div className="flex gap-4">
-              <a href="/cv.pdf" 
+              <a href="/Franckcv.pdf" 
                  download="CV_Franck_Treissy_Emmanuel_NZ.pdf"
                  className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition">
                 <Download className="w-5 h-5 mr-2" />
-                Télécharger CV
+                Télécharger mon CV
               </a>
               <a href="#contact"
                  className="inline-flex items-center px-6 py-3 rounded-lg border border-gray-300 hover:border-gray-400 transition">
@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="flex-1 max-w-md">
             <div className="aspect-square rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=800&h=800" 
+                src="/moi.jpg" 
                 alt="NZ Franck Treissy Emmanuel"
                 className="w-full h-full object-cover"
               />
